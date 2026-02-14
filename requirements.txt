@@ -83,3 +83,4 @@ wcwidth==0.6.0
 web3==6.11.3
 websockets==16.0
 yarl==1.22.0
+fastapi
