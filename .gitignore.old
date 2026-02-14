@@ -21,13 +21,9 @@ wheels/
 *.egg
 
 # Virtual Environment
-venv/
-*.pyc 
-
 .venv/
 .vnev/
 env/
-.env
 ENV/
 
 # Environment variables
@@ -57,16 +53,6 @@ celerybeat.pid
 # Redis dump
 dump.rdb
 
-# --- Frontend (Node/Next.js) ---
-frontend/node_modules/
-frontend/.next/
-frontend/out/
-frontend/build/
-frontend/.env.local
-frontend/.env.development.local
-frontend/.env.test.local
-frontend/.env.production.local
-
 # --- Testing & Coverage ---
 .coverage
 htmlcov/
@@ -74,16 +60,3 @@ htmlcov/
 
 # --- Project Specific ---
 test_chain.py
-.venv
-.vnev
-vnev/
-venv/
-.env/
-
-node.modules/
-.next/
-out/
-
-.DS_Store
-
-
